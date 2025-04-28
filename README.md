@@ -9,6 +9,6 @@ Este projeto foi desenvolvido como parte do processo seletivo da Avanti, com o o
 - **JavaScript (ES6+)**  
 
 ## ✨ Funcionalidades  
-- [ ] Carrosel
-- [ ] Design responsivo  
-- [ ] Interações com JavaScript no footer
+-  Carrosel
+-  Design responsivo  
+-  Interações com JavaScript no footer
