@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AVANTI</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="promo">
+        <p>
+          Ganhe <span class="destaque">R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom DESCONTO10
+        </p>
+      </div>
+    
+      <div class="container-perfil-menu">
+        <div class="mobile-header-container">
+          <div class="mobile-header">
+            <div class="menu-toggle">
+              <img src="img/menuMobile.svg" alt="Menu">
+            </div>
+            <a href="https://penseavanti.com.br" class="mobile-logo">
+              <img src="img/logo.svg" alt="Logo Avanti">
+            </a>
+            <div class="mobile-cart">
+              <img src="img/carrinho.svg" alt="Carrinho">
+              <span class="cart-count">2</span>
+            </div>
+          </div>
+    
+          <div class="mobile-header-input">
+            <input type="text" class="search-input-mobile">
+            <img src="img/lupa.svg" alt=""  class="search-icon">
+          </div>
+        </div>
+        
+        <div class="desktop-header">
+          <div class="busca-wrapper">
+            <div class="busca">
+              <a href="https://penseavanti.com.br" target="_blank"><img src="img/logo.svg" alt="Logo Avanti" class="logo" /></a> 
+              <div class="input-container">
+                <input type="text" placeholder="Digite aqui o que você procura" class="search-input" />
+                <img src="img/lupa.svg" alt="Ícone de busca" class="search-icon" />
+              </div>
+              <div class="profile-container">
+                <img src="img/user.svg" alt="Ícone de perfil" class="profile-icon" />
+                <p>Olá,<br />cliente nome!</p>
+                <div class="cart-container">
+                  <img src="img/carrinho.svg" alt="Carrinho de compras" class="cart-icon" />
+                  <span class="cart-count">2</span>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <nav class="container">
+            <div class="menu-container">
+              <ul class="menu">
+                <li>
+                  <img src="img/menu.svg" alt="menu" />
+                  <p>Todas as categorias</p>
+                  <div class="sub-menu-wrapper">
+                    <ul class="sub-menu">
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                      <li>Departamento <span>></span></li>
+                    </ul>
+                    <ul class="alt-menu">
+                      <div>
+                        <li><strong>Categoria</strong></li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                      </div>
+                      <div>
+                        <li><strong>Categoria</strong></li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                      </div>
+                      <div>
+                        <li><strong>Categoria</strong></li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                        <li>Categoria</li>
+                      </div>
+                  
+                      <div class="caneca-container">
+                        <img id="menu-img" src="img/img-menu.svg" alt="caneca menu">
+                        <div class="texto-sobre-caneca">
+                          <h2>
+                            <span>Confira os</span>  <br>
+                            <span>Produtos</span>  <br>
+                            Que <br>
+                            Acabaram <br>
+                            De chegar
+                          </h2>
+                          <button class="btn-custom">VER TODOS</button>                  
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+    
+                <!-- DEPARTAMENTOS - CADA UM COM SEU PRÓPRIO MENU -->
+                <li class="departamento">Departamento
+                  <div class="menu-departamentos">
+                    <div class="topo-menu">
+                      <div class="topo-esquerda">
+                        <h2><strong>Departamento</strong></h2>
+                        <div class="menu-itens">
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="caneca-container">
+                        <img id="menu-img" src="img/img-menu.svg" alt="caneca menu">
+                        <div class="texto-sobre-caneca">
+                          <h2>
+                            <span>Confira os</span>  <br>
+                            <span>Produtos</span>  <br>
+                            Que <br>
+                            Acabaram <br>
+                            De chegar
+                          </h2>
+                          <button class="btn-custom">VER TODOS</button>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+                <li class="departamento">Departamento
+                  <div class="menu-departamentos">
+                    <div class="topo-menu">
+                      <div class="topo-esquerda">
+                        <h2><strong>Departamento</strong></h2>
+                        <div class="menu-itens">
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="caneca-container">
+                        <img id="menu-img" src="img/img-menu.svg" alt="caneca menu">
+                        <div class="texto-sobre-caneca">
+                          <h2>
+                            <span>Confira os</span>  <br>
+                            <span>Produtos</span>  <br>
+                            Que <br>
+                            Acabaram <br>
+                            De chegar
+                          </h2>
+                          <button class="btn-custom">VER TODOS</button>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="departamento">Departamento
+                  <div class="menu-departamentos">
+                    <div class="topo-menu">
+                      <div class="topo-esquerda">
+                        <h2><strong>Departamento</strong></h2>
+                        <div class="menu-itens">
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="caneca-container">
+                        <img id="menu-img" src="img/img-menu.svg" alt="caneca menu">
+                        <div class="texto-sobre-caneca">
+                          <h2>
+                            <span>Confira os</span>  <br>
+                            <span>Produtos</span>  <br>
+                            Que <br>
+                            Acabaram <br>
+                            De chegar
+                          </h2>
+                          <button class="btn-custom">VER TODOS</button>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+                <li class="departamento">Departamento
+                  <div class="menu-departamentos">
+                    <div class="topo-menu">
+                      <div class="topo-esquerda">
+                        <h2><strong>Departamento</strong></h2>
+                        <div class="menu-itens">
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="caneca-container">
+                        <img id="menu-img" src="img/img-menu.svg" alt="caneca menu">
+                        <div class="texto-sobre-caneca">
+                          <h2>
+                            <span>Confira os</span>  <br>
+                            <span>Produtos</span>  <br>
+                            Que <br>
+                            Acabaram <br>
+                            De chegar
+                          </h2>
+                          <button class="btn-custom">VER TODOS</button>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+                <li class="departamento">Departamento
+                  <div class="menu-departamentos">
+                    <div class="topo-menu">
+                      <div class="topo-esquerda">
+                        <h2><strong>Departamento</strong></h2>
+                        <div class="menu-itens">
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="caneca-container">
+                        <img id="menu-img" src="img/img-menu.svg" alt="caneca menu">
+                        <div class="texto-sobre-caneca">
+                          <h2>
+                            <span>Confira os</span>  <br>
+                            <span>Produtos</span>  <br>
+                            Que <br>
+                            Acabaram <br>
+                            De chegar
+                          </h2>
+                          <button class="btn-custom">VER TODOS</button>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+                <li class="departamento">Departamento
+                  <div class="menu-departamentos">
+                    <div class="topo-menu">
+                      <div class="topo-esquerda">
+                        <h2><strong>Departamento</strong></h2>
+                        <div class="menu-itens">
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="caneca-container">
+                        <img id="menu-img" src="img/img-menu.svg" alt="caneca menu">
+                        <div class="texto-sobre-caneca">
+                          <h2>
+                            <span>Confira os</span>  <br>
+                            <span>Produtos</span>  <br>
+                            Que <br>
+                            Acabaram <br>
+                            De chegar
+                          </h2>
+                          <button class="btn-custom">VER TODOS</button>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+                <li class="departamento">Departamento
+                  <div class="menu-departamentos">
+                    <div class="topo-menu">
+                      <div class="topo-esquerda">
+                        <h2><strong>Departamento</strong></h2>
+                        <div class="menu-itens">
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                          <ul>
+                            <li><strong><a href="#">Categoria</a></strong></li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                            <li>Categoria</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="caneca-container">
+                        <img id="menu-img" src="img/img-menu.svg" alt="caneca menu">
+                        <div class="texto-sobre-caneca">
+                          <h2>
+                            <span>Confira os</span>  <br>
+                            <span>Produtos</span>  <br>
+                            Que <br>
+                            Acabaram <br>
+                            De chegar
+                          </h2>
+                          <button class="btn-custom">VER TODOS</button>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+
+    </header>
+
+    <main>
+      <section class="super-sale">
+        <div>
+          <img src="img/cadeira.svg" alt="cadeira produto">
+          <div class="super-sale-text">
+            <h2><strong>SUPER</strong>SALE</h2>
+            <p>Itens selecionados com até</p>
+            <p><strong>50% OFF</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="super-sale-mobile">
+        <div class="sale-content-wrapper">
+          <img src="img/cadeiraMobile.svg" alt="Cadeira em promoção">
+          <div class="super-sale-text-mobile">
+            <h2><strong>SUPER</strong><br> SALE</h2>
+            <p>SELECTED ITEMS UP TO</p>
+            <h2 class="discount">50% OFF</h2>
+          </div>
+        </div>
+      </section>
+      <section class="carrousel">
+        <div class="container">
+
+          <div class="carrousel-header">
+            <p><strong>Lançamentos</strong></p>
+            <p>Ver mais</p>
+          </div>
+  <div class="swiper-container">
+
+    <div class="swiper mySwiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <p>NOVO</p>
+          <div>
+            <img src="img/carrousel-img.svg" alt="modelo produto">
+          </div>
+          <div class="textos-wrapper">
+            <div>
+              <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+            </div>
+            <div class="precos-wrapper">
+              <div>
+                <p><span>R$ 100,00</span> <br>
+                        R$79,90
+                </p>
+                
+              </div>
+              <div >
+                <p>10% OFF</p>
+              </div>
+            </div>
+            <div>
+              <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+            </div>  
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        
+
+        <div class="swiper-slide">
+          <p>NOVO</p>
+          <div>
+            <img src="img/carrousel-img.svg" alt="modelo produto">
+          </div>
+          <div class="textos-wrapper">
+            <div>
+              <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+            </div>
+            <div class="precos-wrapper">
+              <div>
+                <p><span>R$ 100,00</span> <br>
+                        R$79,90
+                </p>
+                
+              </div>
+              <div>
+                <p>10% OFF</p>
+              </div>
+            </div>
+            <div>
+              <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+            </div>
+            <button>Comprar</button>
+          </div>
+          
+        </div>
+
+        
+
+        <div class="swiper-slide">
+          <p>NOVO</p>
+          <div>
+            <img src="img/carrousel-img.svg" alt="modelo produto">
+          </div>
+          <div class="textos-wrapper">
+            <div>
+              <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+            </div>
+            <div class="precos-wrapper">
+              <div>
+                <p><span>R$ 100,00</span> <br>
+                        R$79,90
+                </p>
+                
+              </div>
+              <div>
+                <p>10% OFF</p>
+              </div>
+            </div>
+            <div>
+              <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+            </div>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <p>NOVO</p>
+          <div>
+            <img src="img/carrousel-img.svg" alt="modelo produto">
+          </div>
+          <div class="textos-wrapper">
+            <div>
+              <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+            </div>
+            <div class="precos-wrapper">
+              <div>
+                <p><span>R$ 100,00</span> <br>
+                        R$79,90
+                </p>
+                
+              </div>
+              <div>
+                <p>10% OFF</p>
+              </div>
+            </div>
+            <div>
+              <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+            </div>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <p>NOVO</p>
+          <div>
+            <img src="img/carrousel-img.svg" alt="modelo produto">
+          </div>
+          <div class="textos-wrapper">
+            <div>
+              <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+            </div>
+            <div class="precos-wrapper">
+              <div>
+                <p><span>R$ 100,00</span> <br>
+                        R$79,90
+                </p>
+                
+              </div>
+              <div>
+                <p>10% OFF</p>
+              </div>
+            </div>
+            <div>
+              <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+            </div>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <p>NOVO</p>
+          <div>
+            <img src="img/carrousel-img.svg" alt="modelo produto">
+          </div>
+          <div class="textos-wrapper">
+            <div>
+              <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+            </div>
+            <div class="precos-wrapper">
+              <div>
+                <p><span>R$ 100,00</span> <br>
+                        R$79,90
+                </p>
+                
+              </div>
+              <div>
+                <p>10% OFF</p>
+              </div>
+            </div>
+            <div>
+              <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+            </div>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <p>NOVO</p>
+          <div>
+            <img src="img/carrousel-img.svg" alt="modelo produto">
+          </div>
+          <div class="textos-wrapper">
+            <div>
+              <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+            </div>
+            <div class="precos-wrapper">
+              <div>
+                <p><span>R$ 100,00</span> <br>
+                        R$79,90
+                </p>
+                
+              </div>
+              <div>
+                <p>10% OFF</p>
+              </div>
+            </div>
+            <div>
+              <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+            </div>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+   
+        
+      </div>
+      
+
+      <div class="swiper-pagination"></div>
+  </div>
+            <!-- If we need pagination -->
+  
+            <!-- If we need navigation buttons -->
+            <div class="custom-swiper-nav">
+              <button class="custom-prev">
+                  <img src="img/prev.svg" alt="Anterior">
+              </button>
+              <div class="swiper-pagination"></div>
+              <button class="custom-next">
+                  <img src="img/next.svg" alt="Próximo">
+              </button>
+          </div>
+  
+            <!-- If we need scrollbar -->
+          </div>
+        </div>
+      </section>
+
+      <section class="produtos">
+        <div class="primeiro-produto">
+          <div>
+            <img src="img/caneca.svg" alt="">
+          </div>
+          <div class="textos">
+            <h1>LOREM IPSUM</h1>
+            <P>Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. 
+              Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in 
+              lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar 
+              ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec 
+              sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce 
+              sagittis elit a libero commodo egestas efficitur id augue.</P>
+              <P>Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. 
+                Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, 
+                in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar 
+                ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. 
+                Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. 
+                Fusce sagittis elit a libero commodo egestas efficitur id augue.</P>
+          </div>
+        </div>
+
+        <div class="segundo-produto">
+          <div class="textos">
+            <h1>LOREM IPSUM</h1>
+            <div class="segundo-produto-texto">
+              <div>
+                <img src="img/map-pin.svg" alt="map pinmodelo produto">
+              </div>
+                
+              <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+              nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            </div>
+
+            <div class="segundo-produto-texto">
+              <div>
+                <img src="img/map-pin.svg" alt="map pin">
+              </div>
+                
+              <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+              nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            </div>
+
+            <div class="segundo-produto-texto">
+              <div>
+                <img src="img/map-pin.svg" alt="map pin">
+              </div>
+                
+              <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+              nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            </div>
+
+          </div>
+
+          <div>
+
+            <img src="img/caneca2.svg" alt="caneca">
+          </div>
+        </div>
+
+        <div class="terceiro-produto">
+          <div>
+            <img src="img/caneca.svg" alt="caneca">
+          </div>
+          <div class="textos">
+            <h1>LOREM IPSUM</h1>
+            <P>Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. 
+              Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in 
+              lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar 
+              ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec 
+              sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce 
+              sagittis elit a libero commodo egestas efficitur id augue.</P>
+              <P>Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. 
+                Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, 
+                in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar 
+                ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. 
+                Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. 
+                Fusce sagittis elit a libero commodo egestas efficitur id augue.</P>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="container">
+
+        <div class="carrousel-header">
+          <p><strong>Lançamentos</strong></p>
+          <p>Ver mais</p>
+        </div>
+<div class="swiper-container">
+
+  <div class="swiper mySwiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <p>NOVO</p>
+        <div>
+          <img src="img/carrousel-img.svg" alt="modelo produto">
+        </div>
+        <div class="textos-wrapper">
+          <div>
+            <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+          </div>
+          <div class="precos-wrapper">
+            <div>
+              <p><span>R$ 100,00</span> <br>
+                      R$79,90
+              </p>
+              
+            </div>
+            <div >
+              <p>10% OFF</p>
+            </div>
+          </div>
+          <div>
+            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+          </div>  
+          <button>Comprar</button>
+        </div>
+      </div>
+
+      
+
+      <div class="swiper-slide">
+        <p>NOVO</p>
+        <div>
+          <img src="img/carrousel-img.svg" alt="modelo produto">
+        </div>
+        <div class="textos-wrapper">
+          <div>
+            <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+          </div>
+          <div class="precos-wrapper">
+            <div>
+              <p><span>R$ 100,00</span> <br>
+                      R$79,90
+              </p>
+              
+            </div>
+            <div>
+              <p>10% OFF</p>
+            </div>
+          </div>
+          <div>
+            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+          </div>
+          <button>Comprar</button>
+        </div>
+        
+      </div>
+
+      <div class="swiper-slide">
+        <p>NOVO</p>
+        <div>
+          <img src="img/carrousel-img.svg" alt="modelo produto">
+        </div>
+        <div class="textos-wrapper">
+          <div>
+            <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+          </div>
+          <div class="precos-wrapper">
+            <div>
+              <p><span>R$ 100,00</span> <br>
+                      R$79,90
+              </p>
+              
+            </div>
+            <div>
+              <p>10% OFF</p>
+            </div>
+          </div>
+          <div>
+            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+          </div>
+          <button>Comprar</button>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <p>NOVO</p>
+        <div>
+          <img src="img/carrousel-img.svg" alt="modelo produto">
+        </div>
+        <div class="textos-wrapper">
+          <div>
+            <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+          </div>
+          <div class="precos-wrapper">
+            <div>
+              <p><span>R$ 100,00</span> <br>
+                      R$79,90
+              </p>
+              
+            </div>
+            <div>
+              <p>10% OFF</p>
+            </div>
+          </div>
+          <div>
+            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+          </div>
+          <button>Comprar</button>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <p>NOVO</p>
+        <div>
+          <img src="img/carrousel-img.svg" alt="modelo produto">
+        </div>
+        <div class="textos-wrapper">
+          <div>
+            <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+          </div>
+          <div class="precos-wrapper">
+            <div>
+              <p><span>R$ 100,00</span> <br>
+                      R$79,90
+              </p>
+              
+            </div>
+            <div>
+              <p>10% OFF</p>
+            </div>
+          </div>
+          <div>
+            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+          </div>
+          <button>Comprar</button>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <p>NOVO</p>
+        <div>
+          <img src="img/carrousel-img.svg" alt="modelo produto">
+        </div>
+        <div class="textos-wrapper">
+          <div>
+            <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+          </div>
+          <div class="precos-wrapper">
+            <div>
+              <p><span>R$ 100,00</span> <br>
+                      R$79,90
+              </p>
+              
+            </div>
+            <div>
+              <p>10% OFF</p>
+            </div>
+          </div>
+          <div>
+            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+          </div>
+          <button>Comprar</button>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <p>NOVO</p>
+        <div>
+          <img src="img/carrousel-img.svg" alt="modelo produto">
+        </div>
+        <div class="textos-wrapper">
+          <div>
+            <h3> Lorem ipsum dolor sit amet <br> consectetuer adipiscing elit </h3> 
+          </div>
+          <div class="precos-wrapper">
+            <div>
+              <p><span>R$ 100,00</span> <br>
+                      R$79,90
+              </p>
+              
+            </div>
+            <div>
+              <p>10% OFF</p>
+            </div>
+          </div>
+          <div>
+            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+          </div>
+          <button>Comprar</button>
+        </div>
+      </div>
+
+      
+      
+    </div>
+    
+
+    <div class="swiper-pagination"></div>
+</div>
+          <!-- If we need pagination -->
+
+          <!-- If we need navigation buttons -->
+          <div class="custom-swiper-nav">
+            <button class="custom-prev">
+                <img src="img/prev.svg" alt="Anterior">
+            </button>
+            <div class="swiper-pagination"></div>
+            <button class="custom-next">
+                <img src="img/next.svg" alt="Próximo">
+            </button>
+        </div>
+
+          <!-- If we need scrollbar -->
+        </div>
+      </div>
+
+      <section class="contatos">
+        
+
+          <div class="banner">
+            <p>entre em contato conosco e verifique a disponibilidade para sua região!</p>
+          </div>
+       
+      </section>
+      
+      <form>
+        <h2>Cadastre-se na nossa <span>newsletter</span></h2>
+        <div class="campos">
+          <input type="text" placeholder="Digite seu nome" >
+          <input type="email" placeholder="Digite seu e-mail">
+          <label class="modern-checkbox">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <span class="text">Estou de acordo com a <span>Política de Privacidade</span></span>
+          </label>
+          <input type="button" value="Cadastrar">
+        </div>
+      </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+
+        <div class="redes-sociais">
+          <img title="AVANTI" src="img/logo.svg" alt="logo avanti">
+          <div>
+           <a href="https://www.instagram.com/penseavanti/" target="_blank">
+            <img title="Instagram" src="img/instagram.svg" alt="logo instagram">
+          </a> 
+           <a href="#"><img title="facebook" src="img/facebook.svg" alt="logo facebook"></a> 
+           <a href="https://www.youtube.com/@penseavanti/videos" target="_blank">
+            <img title="Youtube" src="img/youtube.svg" alt="logo youtube">
+          </a> 
+           <a href="#"><img title="Tiktok" src="img/tiktok.svg" alt="logo tiktok"></a> 
+          </div>
+        </div>
+  
+        <div class="footer-categorias">
+          <div class="categorias">
+            <h4>Institucional</h4>
+            <div class="sub-categorias">
+              <h5>Sobre Nós</h5>
+              <h5>Nossas Lojas</h5>
+              <h5>Privacidade e Segurança</h5>
+              <h5>Termos e Condições</h5>
+            </div>
+          </div>
+  
+          <div class="categorias">
+            <h4>Central de ajuda</h4>
+            <div class="sub-categorias">
+              <h5>Fale Conosco</h5>
+              <h5>Frete e Entrea</h5>
+              <h5>Trocas e Devoluções</h5>
+              <h5>Formas de Pagamento</h5>
+              <h5>FAQ</h5>
+            </div>
+          </div>
+            <div class="categorias">
+              <h4>Atendimento</h4>
+              <div class="sub-categorias">
+                <h5><span>Telefone:</span> (00) 1234-56789</span></h5>
+                <h5><span>E-mail:</span> exemplo@exemplo.com.br</span></h5>
+                <h5><span>Horário de atendimento: </span><br>
+                  Segunda a Sábado: 07h00 às 23h00</span> <br>
+                  Domingos e Feriados:  07h00 às 21h00
+                </h5>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="footer-categorias-mobile">
+          <div class="mobile-dropdown">
+            <button class="mobile-dropdown-btn">
+              <h4>Institucional</h4>
+              <span class="mobile-dropdown-arrow"><img src="img/setaMenu.svg" alt=""></span>
+            </button>
+            <div class="mobile-dropdown-content">
+              <a href="#">Sobre Nós</a>
+              <a href="#">Nossas Lojas</a>
+              <a href="#">Privacidade e Segurança</a>
+              <a href="#">Termos e Condições</a>
+            </div>
+          </div>
+        
+          <div class="mobile-dropdown">
+            <button class="mobile-dropdown-btn">
+              <h4>Central de ajuda</h4>
+              <span class="mobile-dropdown-arrow"><img src="img/setaMenu.svg" alt=""></span>
+            </button>
+            <div class="mobile-dropdown-content">
+              <a href="#">Fale Conosco</a>
+              <a href="#">Frete e Entrega</a>
+              <a href="#">Trocas e Devoluções</a>
+              <a href="#">Formas de Pagamento</a>
+              <a href="#">FAQ</a>
+            </div>
+          </div>
+        
+          <div class="mobile-dropdown">
+            <button class="mobile-dropdown-btn">
+              <h4>Atendimento</h4>
+              <span class="mobile-dropdown-arrow"><img src="img/setaMenu.svg" alt=""></span>
+            </button>
+            <div class="mobile-dropdown-content">
+              <p><strong>Telefone:</strong> (00) 1234-5678</p>
+              <p><strong>E-mail:</strong> exemplo@exemplo.com.br</p>
+              <p><strong>Horário de atendimento:</strong></p>
+              <p>Segunda a Sábado: 07h00 às 23h00</p>
+              <p>Domingos e Feriados: 07h00 às 21h00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagamentos">
+        <img src="img/amex.svg" alt="amex">
+        <img src="img/mastercard.svg" alt="mastercard">
+        <img src="img/visa.svg" alt="visa">
+        <img src="img/hipercard.svg" alt="hipercard">
+        <img src="img/elo.svg" alt="elo">
+        <img src="img/dinners.svg" alt="dinners">
+        <img src="img/paypal.svg" alt="paypal">
+        <img src="img/pix.svg" alt="pix">
+        <img src="img/boleto.svg" alt="boleto">
+      </div>
+
+      <div class="footer-descricao">
+        <div class="descricao-desktop">
+
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+            laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
+          <p>tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+               hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla</p>
+          <p>facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue 
+            duis dolore te feugait nulla facilisi</p>
+        </div>
+        <div class="descricao-mobile">
+
+          <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
+            ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</p>
+        </div>
+
+        <div class="marcas">
+          <div>
+            <img src="img/lets-encrypt.svg" alt="lets encrypt">
+            <img src="img/vtex-pci.svg" alt="vtex pci">
+          </div>
+
+          <div>
+            <img src="img/avanti.svg" alt="avanti logo">
+            <img src="img/vtex.svg" alt="vtex">
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <script src="scripts/searchResult.js"></script>
+    <script src="script.js"></script>
+    <script src="scripts/footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  </body>
+</html>
