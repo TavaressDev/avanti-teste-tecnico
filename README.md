@@ -1,10 +1,14 @@
-📌 Projeto Avanti - Teste Técnico
-Descrição
-Este projeto foi desenvolvido como parte do processo seletivo da Avanti, com o objetivo de demonstrar minhas habilidades em HTML, CSS e JavaScript.
+# 📌 Projeto Avanti - Teste Técnico
 
-🛠️ Tecnologias Utilizadas
-HTML5
+## Descrição  
+Este projeto foi desenvolvido como parte do processo seletivo da Avanti, com o objetivo de demonstrar minhas habilidades em **HTML, CSS e JavaScript**.
 
-CSS3
+## 🛠️ Tecnologias Utilizadas  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (ES6+)**  
 
-JavaScript (ES6+)
+## ✨ Funcionalidades  
+- [ ] Carrosel
+- [ ] Design responsivo  
+- [ ] Interações com JavaScript no footer
